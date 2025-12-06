@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập Tin học 12 – Trang 63 & 66</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            margin: 20px;
+        }
+        h1{
+            text-align: center;
+            color: #1e40af;
+        }
+        h2{
+            margin-top: 30px;
+            color: #1d4ed8;
+        }
+        .noidung{
+            margin-bottom: 25px;
+        }
+        .code{
+            background-color: #f3f4f6;
+            padding: 15px;
+            white-space: pre-wrap;
+            border-left: 4px solid #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>BÀI TẬP TIN HỌC 12 – TRANG 63 & 66</h1>
+
+<div class="noidung">
+    <h2>Câu hỏi 1 trang 63 Tin học 12</h2>
+    <p>
+        Thẻ &lt;img&gt; chỉ dùng khi chèn ảnh jpg vào trang web có đúng không?
+    </p>
+    <p>
+        =&gt; Không, thẻ &lt;img&gt; không chỉ dùng để chèn ảnh JPG vào trang web mà còn có thể được sử dụng để chèn các loại tệp ảnh khác như PNG, GIF, BMP, SVG và nhiều định dạng hình ảnh khác nữa. 
+        Thẻ &lt;img&gt; là một phần quan trọng trong HTML và nó được sử dụng để hiển thị hình ảnh trên trang web.
+    </p>
+</div>
+
+<div class="noidung">
+    <h2>Câu hỏi 2 trang 63 Tin học 12</h2>
+    <p>
+        Hãy Nêu một số trường hợp có thể xảy ra lỗi khi hiển thị ảnh
+    </p>
+    <p>
+        =&gt; Dưới đây là một số trường hợp có thể xảy ra lỗi khi hiển thị ảnh trên trang web:
+    </p>
+    <p>- Đường dẫn tệp không chính xác: Nếu đường dẫn tới tệp ảnh không chính xác, trình duyệt sẽ không thể tìm thấy và hiển thị ảnh.</p>
+    <p>- Tệp ảnh không tồn tại hoặc bị xóa: Nếu tệp ảnh đã bị xóa hoặc không tồn tại tại địa chỉ được chỉ định trong thuộc tính src, ảnh sẽ không thể hiển thị.</p>
+    <p>- Tệp ảnh không hỗ trợ: Trình duyệt không thể hiển thị các định dạng tệp ảnh không hỗ trợ, hoặc không thể hiểu được.</p>
+    <p>- Lỗi tải ảnh từ máy chủ: Nếu máy chủ chứa tệp ảnh gặp sự cố hoặc không hoạt động đúng cách, ảnh có thể không thể tải và hiển thị.</p>
+    <p>- Vấn đề về kích thước hoặc định dạng ảnh: Nếu ảnh có kích thước quá lớn hoặc định dạng không phù hợp, nó có thể gây ra lỗi khi hiển thị trên trang web.</p>
+    <p>- Lỗi trong mã HTML: Nếu có lỗi trong mã HTML hoặc CSS liên quan đến thẻ &lt;img&gt;, có thể dẫn đến lỗi khi hiển thị ảnh.</p>
+</div>
+
+<div class="noidung">
+    <h2>Luyện tập 1 trang 66 Tin học 12</h2>
+    <p>
+        Cho ảnh có kích thước gốc là 720x450 Pixel chèn ảnh vào trang web bằng câu lệnh:
+        &lt;img src="images/1.png" alt="chiếc lá" width="600"&gt;.
+        Hỏi ảnh trong trang web có kích thước bao nhiêu?
+    </p>
+    <p>
+        Kích thước của ảnh trong trang web sau khi chèn sẽ được xác định bởi câu lệnh &lt;img&gt; và thuộc tính width.
+        Do không chỉ định chiều cao nên trình duyệt sẽ tự động điều chỉnh chiều cao theo tỉ lệ ảnh gốc.
+    </p>
+    <p>
+        Tỉ lệ ảnh gốc: 720 : 450
+    </p>
+    <p>
+        Chiều cao mới = (600 × 450) : 720 = 375 pixels
+    </p>
+    <p>
+        Do đó, ảnh trong trang web sẽ có kích thước là 600 pixels chiều rộng và 375 pixels chiều cao.
+    </p>
+</div>
+
+<div class="noidung">
+    <h2>Luyện tập 2 trang 66 Tin học 12</h2>
+    <p>
+        Chèn thêm một số ảnh của mình vào trang web giới thiệu bản thân:
+    </p>
+
+    <div class="code">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Giới thiệu bản thân&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Giới thiệu bản thân&lt;/h1&gt;
+    &lt;p&gt;Xin chào! Tôi là [Tên của bạn], đây là một trang web giới thiệu về bản thân tôi.&lt;/p&gt;
+    &lt;h2&gt;Ảnh của tôi&lt;/h2&gt;
+    &lt;img src="path_to_your_image/image1.jpg" alt="Ảnh của bạn"&gt;
+    &lt;img src="path_to_your_image/image2.jpg" alt="Ảnh của bạn"&gt;
+    &lt;img src="path_to_your_image/image3.jpg" alt="Ảnh của bạn"&gt;
+
+    &lt;h2&gt;Bạn cùng lớp&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://www.facebook.com/friend1"&gt;Facebook của Bạn 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://www.facebook.com/friend2"&gt;Facebook của Bạn 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://www.facebook.com/friend3"&gt;Facebook của Bạn 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </div>
+</div>
+
+<div class="noidung">
+    <h2>Vận dụng trang 66 Tin học 12</h2>
+    <p>
+        Tạo một khung nội tuyến và liên kết đến bài hát em yêu thích vào trang web giới thiệu bản thân:
+    </p>
+
+    <div class="code">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Giới thiệu bản thân&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Giới thiệu bản thân&lt;/h1&gt;
+    &lt;p&gt;Xin chào! Tôi là [Tên của bạn], đây là một trang web giới thiệu về bản thân tôi.&lt;/p&gt;
+
+    &lt;h2&gt;Bài hát yêu thích của tôi&lt;/h2&gt;
+    &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/video_id" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;h2&gt;Bạn cùng lớp&lt;/h2&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="https://www.facebook.com/friend1"&gt;Facebook của Bạn 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://www.facebook.com/friend2"&gt;Facebook của Bạn 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="https://www.facebook.com/friend3"&gt;Facebook của Bạn 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </div>
+</div>
+
+</body>
+</html>
